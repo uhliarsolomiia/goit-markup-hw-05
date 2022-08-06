@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webstudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container header-elements">
+        <nav class="nav-header">
+          <a class="logo" href="">Web<span class="colorstudio">Studio</span></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <div class="actions-studio">
+                <a href="./index.html" class="nav-studio link-current">Студія</a>
+              </div>
+            </li>
+            <li class="nav-item"><a class="site-nav" href="./portfolio.html">Портфоліо</a></li>
+            <li class="nav-item"><a class="site-nav" href="">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="mail icon-mail">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./images/icons/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="number icon-number">
+              <svg class="contacts-icon" width="10" height="16">
+                <use href="./images/icons/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!---герой--->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="btn-style" data-modal-open type="button">Замовити послуги</button>
+        </div>
+      </section>
+      <!---список переваг-->
+      <section class="sections-benefits section-bf">
+        <div class="container">
+          <h2 class="visually-hidden" hidden>список переваг</h2>
+          <ul class="benefits-list">
+            <li class="benefits-items">
+              <div class="benefits-box">
+                <svg class="benefits-icons" width="70" height="70">
+                  <use href="./images/icons/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-title">Увага до деталей</h3>
+              <p class="benefits-text">
+                Ідейні міркування, та навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+
+            <li class="benefits-items">
+              <div class="benefits-box">
+                <svg class="benefits-icons" width="70" height="70">
+                  <use href="./images/icons/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-title">Пунктуальність</h3>
+              <p class="benefits-text">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне за собою.
+              </p>
+            </li>
+
+            <li class="benefits-items icon-plan">
+              <div class="benefits-box">
+                <svg class="benefits-icons" width="70" height="70">
+                  <use href="./images/icons/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-title">Планування</h3>
+              <p class="benefits-text">
+                Так само консультація з широким активом значною мірою зумовлює...
+              </p>
+            </li>
+
+            <li class="benefits-items">
+              <div class="benefits-box">
+                <svg class="benefits-icons" width="70" height="70">
+                  <use href="./images/icons/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="benefits-title">Сучасні технології</h3>
+              <p class="benefits-text">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--чим ми займаємось-->
+      <section class="sections-features section">
+        <div class="container">
+          <h2 class="features-title">Чим ми займаємось</h2>
+          <ul class="features-list">
+            <li class="features-items">
+              <div class="actions">
+                <img src="./images/box1.jpg" alt="робота за комп'ютером" width="370" />
+                <p class="action-title">Десктопні додатки</p>
+              </div>
+            </li>
+
+            <li class="features-items">
+              <div class="actions">
+                <img src="./images/box2.jpg" alt="додаток розробка" width="370" />
+                <p class="action-title">Мобільні додатки</p>
+              </div>
+            </li>
+            <li class="features-items">
+              <div class="actions">
+                <img src="./images/box3.jpg" alt="планшет" width="370" />
+                <p class="action-title">Дизайнерські рішення</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--наша команда-->
+      <section class="sections-team section">
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-list">
+            <li class="team-items">
+              <img src="./images/img_1.jpg" alt="чоловік" width="270" />
+              <div class="team-about">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p lang="en" class="team-position">Product Designer</p>
+                <ul class="team-soc-list">
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-items">
+              <img src="./images/img_2.jpg" alt="жінка" width="270" />
+              <div class="team-about">
+                <h3 class="team-name">Ольга Репіна</h3>
+                <p lang="en" class="team-position">Frontend Developer</p>
+                <ul class="team-soc-list">
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-items">
+              <img src="./images/img_3.jpg" alt="чоловік" width="270" />
+              <div class="team-about">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p lang="en" class="team-position">Marketing</p>
+                <ul class="team-soc-list">
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-items">
+              <img src="./images/img_4.jpg" alt="чоловік" width="270" />
+              <div class="team-about">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p lang="en" class="team-position">UI Designer</p>
+                <ul class="team-soc-list">
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-fb"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a href="" class="team-icon">
+                      <svg class="team-soc-icons" width="20" height="20">
+                        <use href="./images/icons/symbol-defs.svg#icon-link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="customers-section section">
+        <div class="container">
+          <h2 class="customers-title">Постійні клієнти</h2>
+          <ul class="customers-list">
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="customers-icon">
+                  <use href="./images/icons/icons.svg#icon-Logoyaco"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="customers-icon">
+                  <use href="./images/icons/icons.svg#icon-Logotagline"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="customers-icon">
+                  <use href="./images/icons/icons.svg#icon-Logocompany"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="customers-icon">
+                  <use href="./images/icons/icons.svg#icon-Logofoster"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="customers-icon">
+                  <use href="./images/icons/icons.svg#icon-Logobrand"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="customers-icon">
+                  <use href="./images/icons/icons.svg#icon-Logo-5-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-information">
+        <div class="footer-adress">
+          <a class="logo-adress" href="">Web<span class="colorstudio-adress">Studio</span></a>
+          <address>
+            <ul class="adress-list">
+              <li class="adress-item">
+                <a
+                  class="adress-link"
+                  href="https://goo.gl/maps/yT7QNNGnozj1mF7h9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+              <li class="adress-item">
+                <a class="adress-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="adress-item">
+                <a class="adress-number" href="tel:+380991111111">+380991111111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="join">
+          <p class="join-title">Приєднуйтесь</p>
+          <ul class="join-list">
+            <li class="join-item">
+              <a href="" class="join-link">
+                <svg class="join-soc-icons" width="20" height="20">
+                  <use href="./images/icons/icons.svg#icon-instagramwhite"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a href="" class="join-link">
+                <svg class="join-soc-icons" width="20" height="20">
+                  <use href="./images/icons/icons.svg#icon-twitterwhite"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a href="" class="join-link">
+                <svg class="join-soc-icons" width="20" height="20">
+                  <use href="./images/icons/icons.svg#icon-facebookwhite"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a href="" class="join-link">
+                <svg class="join-soc-icons" width="20" height="20">
+                  <use href="./images/icons/icons.svg#icon-linkedinwhite"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="modal-btn" data-modal-close>
+            <svg class="icon-closemodal">
+              <use href="./images/icons/closemodal.svg#icon-closemodal"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <form>
+        <input type="text" name="Імя" />
+      </form>
+      <script src="./js/modal.js"></script>
+    </footer>
+  </body>
+</html>
