@@ -137,17 +137,14 @@ img {
   border-radius: 2px;
   background-color: var(--accent);
   bottom: -1px;
-  opacity: 0;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-studio:hover::after,
-.nav-studio:focus::after {
-  opacity: 1;
-}
+
 .link-current {
   color: var(--accent);
 }
+
 .contacts-list {
   list-style: none;
   margin-left: auto;
@@ -675,13 +672,8 @@ address {
   border-radius: 2px;
   background-color: var(--accent);
   bottom: -1px;
-  opacity: 0;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.nav-portfolio:hover::after,
-.nav-portfolio:focus::after {
-  opacity: 1;
 }
 
 /*-----------------------Кнопки-------------------------*/
